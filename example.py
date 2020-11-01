@@ -1,16 +1,21 @@
-"""Lambdata - a collection of Data Science helper functions"""
+"""Lambdata - a collection of Data Science helper functions""" 
 
-#  accessing libraries through pipenv
-import pandas as pd
-import numpy as np
+# # accessing libraries through pipenv
+import pandas as pd 
+import numpy as np 
 
-Favorite_numbers = [77, 17, 27, 7, 3.14]
+COLORS = ["cyan", "teal", "mauve", "blue", "crimson"]
+FAVORITE_NMBERS = [2.71, 101, 55, 12, 3.14]
 
-def df_cleaner(df):
-    """Class a DF"""
-    #...TODO - implement df_cleaner
-    pass
+def increment(x):
+  return x + 1
 
-def df_destroyer(df):
-    """Destroys a DF"""
-    pass
+# # Implement your helper functions
+# def df_cleaner(df):
+#   """Cleans a DF"""
+#   # implement df_cleaner
+#   pass
+
+# def df_destoryer(df):
+#   """Destroys a DF"""
+#   pass
